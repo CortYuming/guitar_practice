@@ -32,7 +32,7 @@ a:active {
 }
 .gnav li {
   display: inline-block;
-  border-right: solid 1px #ccc;
+  border-right: solid 1px #e1e1e1;
   letter-spacing: normal;
 }
 .gnav li a {
