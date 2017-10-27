@@ -1,5 +1,4 @@
 body {
-  min-width: 111em;
   font-family: Menlo,　Courier, Monaco, monospace;
   font-size: 12px;
   color: #999;
@@ -28,10 +27,10 @@ a:active {
 }
 
 .gnav {
-  background-color: #eee;
   letter-spacing: -.5em;
 }
 .gnav li {
+  background-color: #eee;
   display: inline-block;
   border-right: solid 1px #e1e1e1;
   letter-spacing: normal;
@@ -59,10 +58,8 @@ a:active {
   padding: 0.5em 1em;
 }
 
-#pitch_names,
 #interval {
-  border-bottom: dotted 2px #E6E6FA;
-  background-color: #f8f8f8;
+  margin-bottom: 10px;
 }
 
 .go_to_top {
