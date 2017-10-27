@@ -38,6 +38,7 @@ a:active {
 .gnav li a {
   display: block;
   padding: 0.5em 1em;
+  color: #888;
   text-decoration: none;
 }
 .gnav li a:hover {
