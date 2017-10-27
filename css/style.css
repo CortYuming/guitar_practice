@@ -1,5 +1,5 @@
 body {
-  min-width: 310em;
+  min-width: 111em;
   font-family: Menlo,　Courier, Monaco, monospace;
   font-size: 12px;
   color: #999;
@@ -190,10 +190,4 @@ a:active {
   font-size: 800%;
   font-weight: bold;
   text-align: center;
-}
-
-
-
-@media screen and (min-width: 1024px) {
-  body {min-width: 111em;}
 }
