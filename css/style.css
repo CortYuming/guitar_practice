@@ -44,8 +44,18 @@ a:active {
   background-color: #aaa;
 }
 
-.nav {
+.guitar_fret .nav {
   border-bottom: solid 1px #E6E6FA;
+  letter-spacing: -.5em;
+}
+.guitar_fret .nav li {
+  display: inline-block;
+
+  letter-spacing: normal;
+}
+.guitar_fret .nav li a {
+  display: block;
+  padding: 0.5em 1em;
 }
 
 #pitch_names,
