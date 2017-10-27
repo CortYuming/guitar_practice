@@ -1,0 +1,182 @@
+body {
+  font-family: Menlo,　Courier, Monaco, monospace;
+  font-size: 12px;
+  color: #999;
+  line-height: 1;
+}
+
+body > section {
+  padding: 10px 15px 5px;
+}
+body > section > ul > li {
+  color: #ccc;
+  white-space: nowrap;
+}
+
+a:link {
+  color: #ccc;
+}
+a:visited {
+  color: #ccc;
+}
+a:hover {
+  color: #888;
+}
+a:active {
+  color: #888;
+}
+
+.gnav {
+  background-color: #eee;
+  letter-spacing: -.5em;
+}
+.gnav li {
+  display: inline-block;
+  border-right: solid 1px #ccc;
+  letter-spacing: normal;
+}
+.gnav li a {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+.gnav li a:hover {
+  background-color: #aaa;
+}
+
+.nav {
+  border-bottom: solid 1px #E6E6FA;
+}
+
+#pitch_names,
+#interval {
+  border-bottom: dotted 2px #E6E6FA;
+  background-color: #f8f8f8;
+}
+
+.go_to_top {
+  padding-bottom: 20px;
+}
+
+.fret_number {
+  color: #eee;
+}
+.fret_hightlight {
+  color: #bbb;
+}
+
+.d_R ,
+.d_b2,
+.d_2,
+.d_b3 ,
+.d_3 ,
+.d_4 ,
+.d_b5 ,
+.d_5 ,
+.d_b6 ,
+.d_6 ,
+.d_b7 ,
+.d_M7,
+.sharp_note {
+  color: #E6E6FA;
+}
+
+.major_seventh .d_R,
+.seventh .d_R,
+.minor_seventh .d_R,
+.minor_seventh_flat5 .d_R,
+.minor_pentatonic .d_R,
+.altered_scale .d_R,
+.all .d_R {
+  color: red;
+}
+
+.altered_scale .d_b2,
+.all .d_b2 {
+  color: Thistle;
+}
+
+.all .d_2 {
+  color: Plum;
+}
+
+.minor_seventh .d_b3,
+.minor_seventh_flat5 .d_b3,
+.minor_pentatonic .d_b3,
+.altered_scale .d_b3,
+.all .d_b3 {
+  color: #98c3e3;
+}
+
+.major_seventh .d_3,
+.seventh .d_3,
+.all .d_3 {
+  color: #1296FA;
+}
+
+.minor_pentatonic .d_4,
+.all .d_4 {
+  color: #4FD6CF;
+}
+
+.minor_seventh_flat5 .d_b5,
+.altered_scale .d_b5,
+.all .d_b5 {
+  color: #99C699;
+}
+
+.major_seventh .d_5,
+.minor_seventh .d_5,
+.seventh .d_5,
+.minor_pentatonic .d_5,
+.all .d_5 {
+  color: #2da62d;
+}
+
+.altered_scale .d_b6,
+.all .d_b6 {
+  color: #E1CCB1;
+}
+
+.all .d_6 {
+  color: GoldenRod;
+}
+
+.seventh .d_b7,
+.minor_seventh .d_b7,
+.minor_seventh_flat5 .d_b7,
+.minor_pentatonic .d_b7,
+.altered_scale .d_b7,
+.all .d_b7 {
+  color: #FFD700;
+}
+
+.major_seventh .d_M7,
+.all .d_M7 {
+  color: #FFBA19;
+}
+
+.altered_scale .d_b2,
+.altered_scale .d_b6 {
+  background-color: #f7f3f7;
+}
+
+
+.pitch_names_on,
+.pitch_names_off {
+  font-size: 140%;
+}
+
+.check_note_name .fret {
+  margin-top: 40px;
+}
+.check_note_name .js-fret_hightlight {
+  color: #FFCC00;
+}
+
+.random_key .key {
+  padding-top: 1em;
+  font-size: 800%;
+  font-weight: bold;
+  text-align: center;
+}
