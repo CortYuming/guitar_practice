@@ -195,7 +195,3 @@ a:active {
   font-weight: bold;
   text-align: center;
 }
-
-@media screen and (max-width: 980px) {
-  body {min-width: 310em;}
-}
