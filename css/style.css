@@ -1,4 +1,5 @@
 body {
+  min-width: 310em;
   font-family: Menlo,　Courier, Monaco, monospace;
   font-size: 12px;
   color: #999;
@@ -27,10 +28,10 @@ a:active {
 }
 
 .gnav {
+  background-color: #eee;
   letter-spacing: -.5em;
 }
 .gnav li {
-  background-color: #eee;
   display: inline-block;
   border-right: solid 1px #e1e1e1;
   letter-spacing: normal;
@@ -59,6 +60,11 @@ a:active {
   padding: 0.5em 1em;
 }
 
+#pitch_names,
+#interval {
+  border-bottom: dotted 2px #eee;
+  background-color: #fafafa;
+}
 #interval {
   margin-bottom: 10px;
 }
@@ -189,3 +195,7 @@ a:active {
   font-weight: bold;
   text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+  body {min-width: 111em;}
+-}
