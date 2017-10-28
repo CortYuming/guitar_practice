@@ -196,6 +196,6 @@ a:active {
   text-align: center;
 }
 
-@media screen and (max-width: 980px) {
-  body {min-width: 181em;}
+@media screen and (max-width: 375px) {
+  body {min-width: 192em;}
 }
