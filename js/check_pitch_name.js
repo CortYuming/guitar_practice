@@ -23,7 +23,6 @@ $(function(){
     if ($fret_line) {
       // remove hightlight
       $fret_line.html($fret_line.html().replace(span_hightlight, '').replace(span_hightlight_close, ''));
-      console.info($fret_line.html());
     }
     // set hight_light
     $fret_line = $(random($pitch_names_off));

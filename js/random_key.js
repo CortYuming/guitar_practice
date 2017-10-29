@@ -6,8 +6,6 @@ $(function(){
     var screen_width = window.parent.screen.width;
     var $key = $('.js-key');
     $key.css('width', screen_width);
-
-    console.info(screen_width);
   }
   function random(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
