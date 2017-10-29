@@ -47,6 +47,7 @@ a:active {
 }
 
 .guitar_fret .nav {
+  padding: 10px 0px;
   border-bottom: solid 1px #E6E6FA;
   letter-spacing: -.5em;
 }
@@ -64,6 +65,9 @@ a:active {
 #interval {
   border-bottom: dotted 2px #eee;
   background-color: #fafafa;
+}
+#pitch_names {
+  margin-top: 15px;
 }
 #interval {
   margin-bottom: 10px;
