@@ -180,12 +180,6 @@ a:active {
   background-color: #f7f3f7;
 }
 
-
-.pitch_names_on,
-.pitch_names_off {
-  font-size: 140%;
-}
-
 .check_note_name .fret {
   margin-top: 40px;
 }
