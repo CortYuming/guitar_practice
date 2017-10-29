@@ -3,6 +3,7 @@ $(function(){
   var span_hightlight = '<span class="js-fret_hightlight">';
   var span_hightlight_close = '</span>';
   var join_fret_str = '+';
+  var screen_width = window.parent.screen.width;
   var random = function(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
   };
@@ -31,6 +32,15 @@ $(function(){
       set_random_hightlight($fret_line.text(), random([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]))
     );
   };
+  var move_fret_position = function() {
+    var $hightlight = $('.js-fret_hightlight');
+    if ($hightlight.offset() && $hightlight.offset().left) {
+      scrollTo(
+        $hightlight.offset().left,
+        0
+      );
+    }
+  };
   var toggle_display = function() {
     var $pitch_names_on = $('.pitch_names_on');
     var $pitch_names_off = $('.pitch_names_off');
@@ -38,6 +48,8 @@ $(function(){
     $pitch_names_on.click(function() {
       $pitch_names_on.toggle();
       $pitch_names_off.toggle();
+
+      move_fret_position();
     });
     $pitch_names_off.click(function() {
       $pitch_names_on.toggle();
@@ -49,6 +61,7 @@ $(function(){
   var main = function() {
     toggle_display();
     random_hightlight();
+    move_fret_position();
   };
 
 
