@@ -35,23 +35,11 @@ $(function(){
     var $pitch_names_on = $('.pitch_names_on');
     var $pitch_names_off = $('.pitch_names_off');
 
-    $pitch_names_on.
-      mouseup(function() {
-        $pitch_names_on.toggle();
-        $pitch_names_off.toggle();
-      });
-    $pitch_names_off.
-      mousedown(function() {
-        $pitch_names_on.toggle();
-        $pitch_names_off.toggle();
-        random_hightlight();
-      });
-
-    $pitch_names_on.on('touchstart',function() {
+    $pitch_names_on.click(function() {
       $pitch_names_on.toggle();
       $pitch_names_off.toggle();
     });
-    $pitch_names_off.on('touchend',function() {
+    $pitch_names_off.click(function() {
       $pitch_names_on.toggle();
       $pitch_names_off.toggle();
       random_hightlight();
