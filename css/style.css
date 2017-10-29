@@ -187,6 +187,7 @@ a:active {
 }
 .check_note_name .js-fret_hightlight {
   color: #FFCC00;
+  user-select:none;
 }
 
 .random_key .key {

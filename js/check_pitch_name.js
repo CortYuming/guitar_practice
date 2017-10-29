@@ -47,12 +47,11 @@ $(function(){
         random_hightlight();
       });
 
-
     $pitch_names_on.on('touchstart',function() {
       $pitch_names_on.toggle();
       $pitch_names_off.toggle();
     });
-    $pitch_names_on.on('touchend',function() {
+    $pitch_names_off.on('touchend',function() {
       $pitch_names_on.toggle();
       $pitch_names_off.toggle();
       random_hightlight();
