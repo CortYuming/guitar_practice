@@ -3,7 +3,6 @@ $(function(){
   var span_hightlight = '<span class="js-fret_hightlight">';
   var span_hightlight_close = '</span>';
   var join_fret_str = '+';
-  var screen_width = window.parent.screen.width;
   var random = function(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
   };
@@ -33,7 +32,14 @@ $(function(){
     );
   };
   var move_fret_position = function() {
+    var screen_width = window.parent.screen.width;
     var $hightlight = $('.js-fret_hightlight');
+
+    // In the case of PC do nothing
+    if (768 < screen_width) {
+      return;
+    }
+
     if ($hightlight.offset() && $hightlight.offset().left) {
       scrollTo(
         $hightlight.offset().left,
