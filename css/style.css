@@ -86,11 +86,15 @@ hr {
 }
 
 .fret_number {
+  color: #fff;
+}
+.fret_number_no_dot {
   color: #eee;
 }
-.fret_hightlight {
-  color: #bbb;
+.fret_number_dot {
+  color: #d9d9d9;
 }
+
 
 .d_R ,
 .d_b2,
