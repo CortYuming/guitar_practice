@@ -27,6 +27,14 @@ a:active {
   color: #888;
 }
 
+hr {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #eee;
+  border: 0;
+}
+
 .gnav {
   background-color: #eee;
   letter-spacing: -.5em;
@@ -100,6 +108,7 @@ a:active {
   color: #E6E6FA;
 }
 
+.major_scale .d_R,
 .major_seventh .d_R,
 .seventh .d_R,
 .minor_seventh .d_R,
@@ -115,6 +124,7 @@ a:active {
   color: Thistle;
 }
 
+.major_scale .d_2,
 .all .d_2 {
   color: Plum;
 }
@@ -127,12 +137,14 @@ a:active {
   color: #98c3e3;
 }
 
+.major_scale .d_3,
 .major_seventh .d_3,
 .seventh .d_3,
 .all .d_3 {
   color: #1296FA;
 }
 
+.major_scale .d_4,
 .minor_pentatonic .d_4,
 .all .d_4 {
   color: #4FD6CF;
@@ -144,6 +156,7 @@ a:active {
   color: #99C699;
 }
 
+.major_scale .d_5,
 .major_seventh .d_5,
 .minor_seventh .d_5,
 .seventh .d_5,
@@ -157,6 +170,7 @@ a:active {
   color: #E1CCB1;
 }
 
+.major_scale .d_6,
 .all .d_6 {
   color: GoldenRod;
 }
@@ -170,10 +184,12 @@ a:active {
   color: #FFD700;
 }
 
+.major_scale .d_M7,
 .major_seventh .d_M7,
 .all .d_M7 {
   color: #FFBA19;
 }
+
 
 .altered_scale .d_b2,
 .altered_scale .d_b6 {
