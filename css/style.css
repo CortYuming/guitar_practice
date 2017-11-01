@@ -215,6 +215,35 @@ hr {
   text-align: center;
 }
 
+
+.diatonic_cords .tabile {
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.2;
+}
+.diatonic_cords .tabile .thead {
+  background-color: #f8f8f8;
+}
+.diatonic_cords .tabile .thead td{
+  font-weight: bold;
+}
+.diatonic_cords .tabile th {
+    width: 3em;
+    padding: 0.7em 0;
+    font-weight: bold;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+.diatonic_cords .tabile td {
+    width: 6em;
+    padding: 0.7em 0;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+
+
 @media screen and (max-width: 375px) {
   body {min-width: 186em;}
 }
