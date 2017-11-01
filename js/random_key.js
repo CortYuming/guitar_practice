@@ -3,7 +3,7 @@ $(function(){
   var delay = 60 / tempo * 1000;
 
   function set_display_key_width() {
-    var screen_width = window.parent.screen.width;
+    var screen_width = $(window).width();
     var $key = $('.js-key');
     $key.css('width', screen_width);
   }
