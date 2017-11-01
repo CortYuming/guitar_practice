@@ -144,6 +144,7 @@ hr {
 .major_scale .d_3,
 .major_seventh .d_3,
 .seventh .d_3,
+.altered_scale .d_3,
 .all .d_3 {
   color: #1296FA;
 }
@@ -194,8 +195,9 @@ hr {
   color: #FFBA19;
 }
 
-
 .altered_scale .d_b2,
+.altered_scale .d_b3,
+.altered_scale .d_b5,
 .altered_scale .d_b6 {
   background-color: #f7f3f7;
 }
