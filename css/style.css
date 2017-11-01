@@ -222,8 +222,11 @@ hr {
   text-align: center;
   line-height: 1.2;
 }
-.diatonic_cords .tabile .thead {
+.diatonic_cords .tabile tr:nth-child(odd) td {
   background-color: #f8f8f8;
+}
+.diatonic_cords .tabile tr.thead td{
+  background-color: #d3d3d3;
 }
 .diatonic_cords .tabile .thead td{
   font-weight: bold;
@@ -234,7 +237,7 @@ hr {
     font-weight: bold;
     vertical-align: top;
     border: 1px solid #ccc;
-    background-color: #f8f8f8;
+    background-color: #d3d3d3;
 }
 .diatonic_cords .tabile td {
     width: 6em;
