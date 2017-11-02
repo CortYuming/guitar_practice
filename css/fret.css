@@ -1,0 +1,220 @@
+.fret .title {
+  color: #999;
+}
+
+.fret .fret_table {
+  color: #eee;
+}
+
+.fret .nav {
+  padding: 10px 0px;
+  border-bottom: solid 1px #E6E6FA;
+  letter-spacing: -.5em;
+}
+.fret .nav li {
+  display: inline-block;
+
+  letter-spacing: normal;
+}
+.fret .nav li a {
+  display: block;
+  padding: 0.5em 1em;
+}
+
+.fret .fret_table {
+  border-collapse: collapse;
+  text-align: center;
+  line-height: 1.2;
+}
+.fret .fret_table tr.thead td{
+  background-color: #d3d3d3;
+}
+.fret .fret_table .thead td{
+  font-weight: bold;
+}
+.fret .fret_table td {
+  width: 4em;
+  padding: 0.1em 0;
+  vertical-align: top;
+  border-right: 1px solid #d9d9d9;
+  background-image: url(./dot_gray.png);
+  background-repeat: repeat-x;
+  background-size: 1px 2px;
+  background-position: center;
+}
+.fret .fret_table td:first-child {
+  border-right: 3px solid #d9d9d9;
+}
+.fret .fret_table .fret_position td {
+  border-right: none;
+  background: none;
+}
+.fret .fret_table .fret_position .p_3,
+.fret .fret_table .fret_position .p_5,
+.fret .fret_table .fret_position .p_7,
+.fret .fret_table .fret_position .p_9,
+.fret .fret_table .fret_position .p_12,
+.fret .fret_table .fret_position .p_15,
+.fret .fret_table .fret_position .p_17,
+.fret .fret_table .fret_position .p_19,
+.fret .fret_table .fret_position .p_21 {
+  color: #c8c8c8;
+}
+
+.fret .all_note .n_1 {
+  color: red;
+}
+.fret .all_note .n_b9 {
+  color: Thistle;
+}
+.fret .all_note .n_9 {
+  color: Plum;
+}
+.fret .all_note .n_b3 {
+  color: #98c3e3;
+}
+.fret .all_note .n_3 {
+  color: #1296FA;
+}
+.fret .all_note .n_11 {
+  color: #4FD6CF;
+}
+.fret .all_note .n_b5 {
+  color: #99C699;
+}
+.fret .all_note .n_5 {
+  color: #2da62d;
+}
+.fret .all_note .n_b13 {
+  color: #E1CCB1;
+}
+.fret .all_note .n_13 {
+  color: GoldenRod;
+}
+.fret .all_note .n_b7 {
+  color: #FFD700;
+}
+.fret .all_note .n_M7 {
+  color: #FFBA19;
+}
+
+
+.fret .major_seventh .n_1 {
+  color: red;
+}
+.fret .major_seventh .n_3 {
+  color: #1296FA;
+}
+.fret .major_seventh .n_5 {
+  color: #2da62d;
+}
+.fret .major_seventh .n_M7 {
+  color: #FFBA19;
+}
+
+.fret .seventh .n_1 {
+  color: red;
+}
+.fret .seventh .n_3 {
+  color: #1296FA;
+}
+.fret .seventh .n_5 {
+  color: #2da62d;
+}
+.fret .seventh .n_b7 {
+  color: #FFD700;
+}
+
+.fret .minor_seventh .n_1 {
+  color: red;
+}
+.fret .minor_seventh .n_b3 {
+  color: #98c3e3;
+}
+.fret .minor_seventh .n_5 {
+  color: #2da62d;
+}
+.fret .minor_seventh .n_b7 {
+  color: #FFD700;
+}
+
+.fret .Cm7b5 .n_1 {
+  color: red;
+}
+.fret .Cm7b5 .n_b3 {
+  color: #98c3e3;
+}
+.fret .Cm7b5 .n_b5 {
+  color: #99C699;
+}
+.fret .Cm7b5 .n_b7 {
+  color: #FFD700;
+}
+
+.fret .major_scale .n_1 {
+  color: red;
+}
+.fret .major_scale .n_9 {
+  color: Plum;
+}
+.fret .major_scale .n_3 {
+  color: #1296FA;
+}
+.fret .major_scale .n_11 {
+  color: #4FD6CF;
+}
+.fret .major_scale .n_5 {
+  color: #2da62d;
+}
+.fret .major_scale .n_13 {
+  color: GoldenRod;
+}
+.fret .major_scale .n_M7 {
+  color: #FFBA19;
+}
+
+.fret .altered_scale .n_1 {
+  color: red;
+}
+.fret .altered_scale .n_b9 {
+  color: Thistle;
+}
+.fret .altered_scale .n_b3 {
+  color: #98c3e3;
+}
+.fret .altered_scale .n_3 {
+  color: #1296FA;
+}
+.fret .altered_scale .n_b5 {
+  color: #99C699;
+}
+.fret .altered_scale .n_b13 {
+  color: #E1CCB1;
+}
+.fret .altered_scale .n_b7 {
+  color: #FFD700;
+}
+
+.fret .minor_pentatonic .n_1 {
+  color: red;
+}
+.fret .minor_pentatonic .n_b3 {
+  color: #98c3e3;
+}
+.fret .minor_pentatonic .n_3 {
+  color: #1296FA;
+}
+.fret .minor_pentatonic .n_11 {
+  color: #4FD6CF;
+}
+.fret .minor_pentatonic .n_5 {
+  color: #2da62d;
+}
+.fret .minor_pentatonic .n_b7 {
+  color: #FFD700;
+}
+
+
+.fret .sharp_note {
+  color: #eee;
+}
