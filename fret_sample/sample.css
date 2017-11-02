@@ -79,3 +79,8 @@
 .fret_sample .all_note .n_M7 {
   color: #FFBA19;
 }
+
+
+.fret_sample .sharp_note {
+  color: #eee;
+}
