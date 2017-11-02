@@ -218,22 +218,22 @@ hr {
 }
 
 
-.diatonic_cords .tabile {
+.diatonic_cords .fret_tabile {
   border-collapse: collapse;
   margin-top: 20px;
   text-align: center;
   line-height: 1.2;
 }
-.diatonic_cords .tabile tr:nth-child(odd) td {
+.diatonic_cords .fret_tabile tr:nth-child(odd) td {
   background-color: #f8f8f8;
 }
-.diatonic_cords .tabile tr.thead td{
+.diatonic_cords .fret_tabile tr.thead td{
   background-color: #d3d3d3;
 }
-.diatonic_cords .tabile .thead td{
+.diatonic_cords .fret_tabile .thead td{
   font-weight: bold;
 }
-.diatonic_cords .tabile th {
+.diatonic_cords .fret_tabile th {
     width: 3em;
     padding: 0.7em 0;
     font-weight: bold;
@@ -241,7 +241,7 @@ hr {
     border: 1px solid #ccc;
     background-color: #d3d3d3;
 }
-.diatonic_cords .tabile td {
+.diatonic_cords .fret_tabile td {
     width: 6em;
     padding: 0.7em 0;
     vertical-align: top;
