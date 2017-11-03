@@ -1,5 +1,5 @@
 body {
-  min-width: 58em;
+  min-width: 60em;
   font-family: Menlo,　Courier, Monaco, monospace;
   font-size: 12px;
   color: #999;
@@ -98,6 +98,6 @@ hr {
 }
 
 
-@media screen and (max-width: 120px) {
-  body {min-width: 115em;}
+@media screen and (max-width: 375px) {
+  body {min-width: 100em;}
 }
