@@ -378,3 +378,29 @@
 .fret .sharp_note {
   color: #eee;
 }
+
+.major_of_mode,
+.minor_of_mode {
+  padding: 0px 5px;
+  display:inline-block;
+  opacity: 1;
+}
+.mode.major .title,
+.mode.minor .title,
+.major_of_mode:link,
+.minor_of_mode:link{
+  color: #eee;
+}
+.major_of_mode:visited,
+.minor_of_mode:visited {
+  color: #eee;
+}
+
+.mode.major .title,
+.major_of_mode {
+  background-color: #eac12c;
+}
+.mode.minor .title,
+.minor_of_mode {
+  background-color: #4585a8;
+}
