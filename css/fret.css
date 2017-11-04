@@ -62,315 +62,171 @@
   color: #c8c8c8;
 }
 
-.fret .all_note .n_1 {
+.fret .n_1 {
   color: red;
 }
-.fret .all_note .n_b9 {
+.fret .n_b9 {
   color: Thistle;
 }
-.fret .all_note .n_9 {
+.fret .n_9 {
   color: Plum;
 }
-.fret .all_note .n_b3 {
+.fret .n_b3 {
   color: #98c3e3;
 }
-.fret .all_note .n_3 {
+.fret .n_3 {
   color: #1296FA;
 }
-.fret .all_note .n_11 {
+.fret .n_11 {
   color: #4FD6CF;
 }
-.fret .all_note .n_b5 {
+.fret .n_b5 {
   color: #99C699;
 }
-.fret .all_note .n_5 {
+.fret .n_5 {
   color: #2da62d;
 }
-.fret .all_note .n_b13 {
+.fret .n_b13 {
   color: #E1CCB1;
 }
-.fret .all_note .n_13 {
+.fret .n_13 {
   color: GoldenRod;
 }
-.fret .all_note .n_b7 {
+.fret .n_b7 {
   color: #FFD700;
 }
-.fret .all_note .n_M7 {
+.fret .n_M7 {
   color: #FFBA19;
 }
 
 
-.fret .major_seventh .n_1 {
-  color: red;
-}
-.fret .major_seventh .n_3 {
-  color: #1296FA;
-}
-.fret .major_seventh .n_5 {
-  color: #2da62d;
-}
+.fret .major_seventh .n_1,
+.fret .major_seventh .n_3,
+.fret .major_seventh .n_5,
 .fret .major_seventh .n_M7 {
-  color: #FFBA19;
+  background-color: #FEF7CC;
 }
 
-.fret .seventh .n_1 {
-  color: red;
-}
-.fret .seventh .n_3 {
-  color: #1296FA;
-}
-.fret .seventh .n_5 {
-  color: #2da62d;
-}
+.fret .seventh .n_1,
+.fret .seventh .n_3,
+.fret .seventh .n_5,
 .fret .seventh .n_b7 {
-  color: #FFD700;
+  background-color: #FEF7CC;
 }
 
-.fret .minor_seventh .n_1 {
-  color: red;
-}
-.fret .minor_seventh .n_b3 {
-  color: #98c3e3;
-}
-.fret .minor_seventh .n_5 {
-  color: #2da62d;
-}
+.fret .minor_seventh .n_1,
+.fret .minor_seventh .n_b3,
+.fret .minor_seventh .n_5,
 .fret .minor_seventh .n_b7 {
-  color: #FFD700;
+  background-color: #FEF7CC;
 }
 
-.fret .Cm7b5 .n_1 {
-  color: red;
-}
-.fret .Cm7b5 .n_b3 {
-  color: #98c3e3;
-}
-.fret .Cm7b5 .n_b5 {
-  color: #99C699;
-}
+.fret .Cm7b5 .n_1,
+.fret .Cm7b5 .n_b3,
+.fret .Cm7b5 .n_b5,
 .fret .Cm7b5 .n_b7 {
-  color: #FFD700;
+  background-color: #FEF7CC;
 }
 
-.fret .major_scale .n_1 {
-  color: red;
-}
-.fret .major_scale .n_9 {
-  color: Plum;
-}
-.fret .major_scale .n_3 {
-  color: #1296FA;
-}
-.fret .major_scale .n_11 {
-  color: #4FD6CF;
-}
-.fret .major_scale .n_5 {
-  color: #2da62d;
-}
-.fret .major_scale .n_13 {
-  color: GoldenRod;
-}
+.fret .major_scale .n_1,
+.fret .major_scale .n_9,
+.fret .major_scale .n_3,
+.fret .major_scale .n_11,
+.fret .major_scale .n_5,
+.fret .major_scale .n_13,
 .fret .major_scale .n_M7 {
-  color: #FFBA19;
+  background-color: #FEF7CC;
 }
 
-.fret .altered_scale .n_1 {
-  color: red;
-}
-.fret .altered_scale .n_b9 {
-  color: Thistle;
-}
-.fret .altered_scale .n_b3 {
-  color: #98c3e3;
-}
-.fret .altered_scale .n_3 {
-  color: #1296FA;
-}
-.fret .altered_scale .n_b5 {
-  color: #99C699;
-}
-.fret .altered_scale .n_b13 {
-  color: #E1CCB1;
-}
+.fret .altered_scale .n_1,
+.fret .altered_scale .n_b9,
+.fret .altered_scale .n_b3,
+.fret .altered_scale .n_3,
+.fret .altered_scale .n_b5,
+.fret .altered_scale .n_b13,
 .fret .altered_scale .n_b7 {
-  color: #FFD700;
+  background-color: #FEF7CC;
 }
 
-.fret .minor_pentatonic .n_1 {
-  color: red;
-}
-.fret .minor_pentatonic .n_b3 {
-  color: #98c3e3;
-}
-.fret .minor_pentatonic .n_3 {
-  color: #1296FA;
-}
-.fret .minor_pentatonic .n_11 {
-  color: #4FD6CF;
-}
-.fret .minor_pentatonic .n_5 {
-  color: #2da62d;
-}
+.fret .minor_pentatonic .n_1,
+.fret .minor_pentatonic .n_b3,
+.fret .minor_pentatonic .n_3,
+.fret .minor_pentatonic .n_11,
+.fret .minor_pentatonic .n_5,
 .fret .minor_pentatonic .n_b7 {
-  color: #FFD700;
+  background-color: #FEF7CC;
 }
 
 
-.fret .ionian .n_1 {
-  color: red;
-}
-.fret .ionian .n_9 {
-  color: Plum;
-}
-.fret .ionian .n_3 {
-  color: #1296FA;
-}
-.fret .ionian .n_11 {
-  color: #4FD6CF;
-}
-.fret .ionian .n_5 {
-  color: #2da62d;
-}
-.fret .ionian .n_13 {
-  color: GoldenRod;
-}
+.fret .ionian .n_1,
+.fret .ionian .n_9,
+.fret .ionian .n_3,
+.fret .ionian .n_11,
+.fret .ionian .n_5,
+.fret .ionian .n_13,
 .fret .ionian .n_M7 {
-  color: #FFBA19;
+  background-color: #FEF7CC;
 }
 
-.fret .dorian .n_1 {
-  color: red;
-}
-.fret .dorian .n_9 {
-  color: Plum;
-}
-.fret .dorian .n_b3 {
-  color: #98c3e3;
-}
-.fret .dorian .n_11 {
-  color: #4FD6CF;
-}
-.fret .dorian .n_5 {
-  color: #2da62d;
-}
-.fret .dorian .n_13 {
-  color: GoldenRod;
-}
+.fret .dorian .n_1,
+.fret .dorian .n_9,
+.fret .dorian .n_b3,
+.fret .dorian .n_11,
+.fret .dorian .n_5,
+.fret .dorian .n_13,
 .fret .dorian .n_b7 {
-  color: #FFD700;
+  background-color: #FEF7CC;
 }
 
-.fret .phrygian .n_1 {
-  color: red;
-}
-.fret .phrygian .n_b9 {
-  color: Thistle;
-}
-.fret .phrygian .n_b3 {
-  color: #98c3e3;
-}
-.fret .phrygian .n_11 {
-  color: #4FD6CF;
-}
-.fret .phrygian .n_5 {
-  color: #2da62d;
-}
-.fret .phrygian .n_b13 {
-  color: #E1CCB1;
-}
+.fret .phrygian .n_1,
+.fret .phrygian .n_b9,
+.fret .phrygian .n_b3,
+.fret .phrygian .n_11,
+.fret .phrygian .n_5,
+.fret .phrygian .n_b13,
 .fret .phrygian .n_b7 {
-  color: #FFD700;
+  background-color: #FEF7CC;
 }
 
-.fret .lydian .n_1 {
-  color: red;
-}
-.fret .lydian .n_9 {
-  color: Plum;
-}
-.fret .lydian .n_3 {
-  color: #1296FA;
-}
-.fret .lydian .n_b5 {
-  color: #99C699;
-}
-.fret .lydian .n_5 {
-  color: #2da62d;
-}
-.fret .lydian .n_13 {
-  color: GoldenRod;
-}
+.fret .lydian .n_1,
+.fret .lydian .n_9,
+.fret .lydian .n_3,
+.fret .lydian .n_b5,
+.fret .lydian .n_5,
+.fret .lydian .n_13,
 .fret .lydian .n_M7 {
-  color: #FFBA19;
+  background-color: #FEF7CC;
 }
 
-.fret .mixolydian .n_1 {
-  color: red;
-}
-.fret .mixolydian .n_9 {
-  color: Plum;
-}
-.fret .mixolydian .n_3 {
-  color: #1296FA;
-}
-.fret .mixolydian .n_11 {
-  color: #4FD6CF;
-}
-.fret .mixolydian .n_5 {
-  color: #2da62d;
-}
-.fret .mixolydian .n_13 {
-  color: GoldenRod;
-}
+.fret .mixolydian .n_1,
+.fret .mixolydian .n_9,
+.fret .mixolydian .n_3,
+.fret .mixolydian .n_11,
+.fret .mixolydian .n_5,
+.fret .mixolydian .n_13,
 .fret .mixolydian .n_b7 {
-  color: #FFD700;
+  background-color: #FEF7CC;
 }
 
-.fret .aeolian .n_1 {
-  color: red;
-}
-.fret .aeolian .n_9 {
-  color: Plum;
-}
-.fret .aeolian .n_b3 {
-  color: #98c3e3;
-}
-.fret .aeolian .n_11 {
-  color: #4FD6CF;
-}
-.fret .aeolian .n_5 {
-  color: #2da62d;
-}
-.fret .aeolian .n_b13 {
-  color: #E1CCB1;
-}
-.fret .aeolian .n_b7 {
-  color: #FFD700;
-}
+.fret .aeolian .n_1,
+.fret .aeolian .n_9,
+.fret .aeolian .n_b3,
+.fret .aeolian .n_11,
+.fret .aeolian .n_5,
+.fret .aeolian .n_b13,
+.fret .aeolian .n_b7,
 .fret .aeolian .n_M7 {
-  color: #FFBA19;
+  background-color: #FEF7CC;
 }
 
-.fret .locrian .n_1 {
-  color: red;
-}
-.fret .locrian .n_b9 {
-  color: Thistle;
-}
-.fret .locrian .n_b3 {
-  color: #98c3e3;
-}
-.fret .locrian .n_11 {
-  color: #4FD6CF;
-}
-.fret .locrian .n_b5 {
-  color: #99C699;
-}
-.fret .locrian .n_b13 {
-  color: #E1CCB1;
-}
+.fret .locrian .n_1,
+.fret .locrian .n_b9,
+.fret .locrian .n_b3,
+.fret .locrian .n_11,
+.fret .locrian .n_b5,
+.fret .locrian .n_b13,
 .fret .locrian .n_b7 {
-  color: #FFD700;
+  background-color: #FEF7CC;
 }
 
 
