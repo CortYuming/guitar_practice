@@ -7,21 +7,6 @@
   color: #eee;
 }
 
-.fret .nav {
-  padding: 10px 0px;
-  border-bottom: solid 1px #E6E6FA;
-  letter-spacing: -.5em;
-}
-.fret .nav li {
-  display: inline-block;
-
-  letter-spacing: normal;
-}
-.fret .nav li a {
-  display: block;
-  padding: 0.5em 1em;
-}
-
 .fret .fret_table {
   border-collapse: collapse;
   text-align: center;

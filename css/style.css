@@ -54,6 +54,21 @@ hr {
   background-color: #aaa;
 }
 
+.nav {
+  padding: 10px 0px;
+  border-bottom: solid 1px #E6E6FA;
+  letter-spacing: -.5em;
+}
+.nav li {
+  display: inline-block;
+
+  letter-spacing: normal;
+}
+.nav li a {
+  display: block;
+  padding: 0.5em 1em;
+}
+
 .go_to_top {
   padding-bottom: 20px;
 }
@@ -67,22 +82,28 @@ hr {
 }
 
 
-.diatonic_chords .fret_tabile {
+
+.etc .diatonic_chords,
+.etc .key_signature {
+  margin-bottom: 30px;
+}
+
+.etc .diatonic_chords .fret_tabile {
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   line-height: 1.2;
 }
-.diatonic_chords .fret_tabile tr:nth-child(odd) td {
+.etc .diatonic_chords .fret_tabile tr:nth-child(odd) td {
   background-color: #f8f8f8;
 }
-.diatonic_chords .fret_tabile tr.thead td{
+.etc .diatonic_chords .fret_tabile tr.thead td{
   background-color: #d3d3d3;
 }
-.diatonic_chords .fret_tabile .thead td{
+.etc .diatonic_chords .fret_tabile .thead td{
   font-weight: bold;
 }
-.diatonic_chords .fret_tabile th {
+.etc .diatonic_chords .fret_tabile th {
     width: 3em;
     padding: 0.7em 0;
     font-weight: bold;
@@ -90,17 +111,13 @@ hr {
     border: 1px solid #ccc;
     background-color: #d3d3d3;
 }
-.diatonic_chords .fret_tabile td {
+.etc .diatonic_chords .fret_tabile td {
     width: 6em;
     padding: 0.7em 0;
     vertical-align: top;
     border: 1px solid #ccc;
 }
 
-
-.etc .key_signature {
-  margin-bottom: 20px;
-}
 .etc .key_signature_group {
   width: 100%;
 }
