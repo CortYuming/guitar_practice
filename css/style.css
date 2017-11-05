@@ -98,6 +98,36 @@ hr {
 }
 
 
+.etc .key_signature {
+  margin-bottom: 20px;
+}
+.etc .key_signature_group {
+  width: 100%;
+}
+.etc .key_signature_group li {
+  float: left;
+  margin: 10px 20px;
+}
+.etc .key_signature_group li img {
+  width: 100px;
+  height: auto;
+}
+.etc .key_signature_group li span {
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
 @media screen and (max-width: 375px) {
   body {min-width: 100em;}
 }
