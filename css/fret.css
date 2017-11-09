@@ -82,28 +82,28 @@
 .fret .major_seventh .n_3,
 .fret .major_seventh .n_5,
 .fret .major_seventh .n_M7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .seventh .n_1,
 .fret .seventh .n_3,
 .fret .seventh .n_5,
 .fret .seventh .n_b7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .minor_seventh .n_1,
 .fret .minor_seventh .n_b3,
 .fret .minor_seventh .n_5,
 .fret .minor_seventh .n_b7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .Cm7b5 .n_1,
 .fret .Cm7b5 .n_b3,
 .fret .Cm7b5 .n_b5,
 .fret .Cm7b5 .n_b7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .major_scale .n_1,
@@ -113,7 +113,7 @@
 .fret .major_scale .n_5,
 .fret .major_scale .n_13,
 .fret .major_scale .n_M7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .altered_scale .n_1,
@@ -123,7 +123,7 @@
 .fret .altered_scale .n_b5,
 .fret .altered_scale .n_b13,
 .fret .altered_scale .n_b7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .minor_pentatonic .n_1,
@@ -132,7 +132,7 @@
 .fret .minor_pentatonic .n_11,
 .fret .minor_pentatonic .n_5,
 .fret .minor_pentatonic .n_b7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 
@@ -143,7 +143,7 @@
 .fret .ionian .n_5,
 .fret .ionian .n_13,
 .fret .ionian .n_M7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .dorian .n_1,
@@ -153,7 +153,7 @@
 .fret .dorian .n_5,
 .fret .dorian .n_13,
 .fret .dorian .n_b7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .phrygian .n_1,
@@ -163,7 +163,7 @@
 .fret .phrygian .n_5,
 .fret .phrygian .n_b13,
 .fret .phrygian .n_b7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .lydian .n_1,
@@ -173,7 +173,7 @@
 .fret .lydian .n_5,
 .fret .lydian .n_13,
 .fret .lydian .n_M7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .mixolydian .n_1,
@@ -183,7 +183,7 @@
 .fret .mixolydian .n_5,
 .fret .mixolydian .n_13,
 .fret .mixolydian .n_b7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .aeolian .n_1,
@@ -194,7 +194,7 @@
 .fret .aeolian .n_b13,
 .fret .aeolian .n_b7,
 .fret .aeolian .n_M7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 .fret .locrian .n_1,
@@ -204,7 +204,7 @@
 .fret .locrian .n_b5,
 .fret .locrian .n_b13,
 .fret .locrian .n_b7 {
-  background-color: #FEF7CC;
+  background-color: #FEF8D6;
 }
 
 
