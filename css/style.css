@@ -128,11 +128,12 @@ hr {
 }
 
 .fret .n_1 {
-  color: red;
+  color: #ff5e5e;
+  font-weight: bold;
 }
 .fret .n_b9,
 .fret .n_9 {
-  color: Plum;
+  color: #DDA0DD;
 }
 .fret .n_b3,
 .fret .n_3 {
@@ -147,7 +148,7 @@ hr {
 }
 .fret .n_b13,
 .fret .n_13 {
-  color: GoldenRod;
+  color: #DAA520;
 }
 .fret .n_b7,
 .fret .n_M7 {
