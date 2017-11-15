@@ -12,8 +12,22 @@ $(function(){
   }
   function display_key() {
     var keys = ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B'];
-    var key = random(keys).replace(/(.+?\/)/g, '<span style="color:#eee;">$1</span>');
-    $('.js-key').html(key);
+    var parameter = location.search.split('q=')[1];
+
+    if (parameter) {
+      keys =  parameter.split(',');
+      keys = keys.map(function(key) {
+        return decodeURI(key);
+      });
+    } else {
+      keys = keys.map(function(key) {
+        return key.replace(/(.+?\/)/g, '<span style="color:#eee;">$1</span>');
+      });
+    }
+
+    $('.js-key').html(
+      random(keys)
+    );
   }
 
   set_display_key_width();
