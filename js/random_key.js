@@ -12,7 +12,7 @@ $(function(){
   }
   function display_key() {
     var parameter = location.search.split('q=')[1];
-    var init_keys = ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B'];
+    var init_keys = ['C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B'];
     var keys = [];
 
     keys = init_keys.map(function(key) {
