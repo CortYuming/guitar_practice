@@ -11,17 +11,18 @@ $(function(){
     return arr[Math.floor(Math.random() * arr.length)];
   }
   function display_key() {
-    var keys = ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B'];
     var parameter = location.search.split('q=')[1];
+    var init_keys = ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B'];
+    var keys = [];
+
+    keys = init_keys.map(function(key) {
+      return key.replace(/(.+?\/)/g, '<span style="color:#eee;">$1</span>');
+    });
 
     if (parameter) {
       keys =  parameter.split(',');
       keys = keys.map(function(key) {
         return decodeURI(key);
-      });
-    } else {
-      keys = keys.map(function(key) {
-        return key.replace(/(.+?\/)/g, '<span style="color:#eee;">$1</span>');
       });
     }
 
