@@ -283,7 +283,7 @@ hr {
 }
 
 .fret .sharp_note {
-  color: #eee;
+  opacity: 0.4;
 }
 
 .fret .major_of_mode,
