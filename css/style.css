@@ -242,7 +242,7 @@ hr {
 }
 .fret .phrygian .n_b9,
 .fret .phrygian .n_b13 {
-  border: 1px solid #4585a8;
+  border: 1px dotted #4585a8;
   box-sizing: border-box;
 }
 
@@ -256,7 +256,7 @@ hr {
   background-color: #FEF8D6;
 }
 .fret .lydian .n_b5 {
-  border: 1px solid #eac12c;
+  border: 1px dotted #eac12c;
   box-sizing: border-box;
 }
 
@@ -270,7 +270,7 @@ hr {
   background-color: #FEF8D6;
 }
 .fret .mixolydian .n_b7 {
-  border: 1px solid #eac12c;
+  border: 1px dotted #eac12c;
   box-sizing: border-box;
 }
 
@@ -285,7 +285,7 @@ hr {
   background-color: #FEF8D6;
 }
 .fret .aeolian .n_b13 {
-  border: 1px solid #4585a8;
+  border: 1px dotted #4585a8;
   box-sizing: border-box;
 }
 .fret .locrian .n_1,
@@ -300,7 +300,7 @@ hr {
 .fret .locrian .n_b9,
 .fret .locrian .n_b5,
 .fret .locrian .n_b13 {
-  border: 1px solid #4585a8;
+  border: 1px dotted #4585a8;
   box-sizing: border-box;
 }
 
