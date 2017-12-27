@@ -240,6 +240,11 @@ hr {
 .fret .phrygian .n_b7 {
   background-color: #FEF8D6;
 }
+.fret .phrygian .n_b9,
+.fret .phrygian .n_b13 {
+  border: 1px solid #4585a8;
+  box-sizing: border-box;
+}
 
 .fret .lydian .n_1,
 .fret .lydian .n_9,
@@ -250,6 +255,10 @@ hr {
 .fret .lydian .n_M7 {
   background-color: #FEF8D6;
 }
+.fret .lydian .n_b5 {
+  border: 1px solid #eac12c;
+  box-sizing: border-box;
+}
 
 .fret .mixolydian .n_1,
 .fret .mixolydian .n_9,
@@ -259,6 +268,10 @@ hr {
 .fret .mixolydian .n_13,
 .fret .mixolydian .n_b7 {
   background-color: #FEF8D6;
+}
+.fret .mixolydian .n_b7 {
+  border: 1px solid #eac12c;
+  box-sizing: border-box;
 }
 
 .fret .aeolian .n_1,
@@ -271,7 +284,10 @@ hr {
 .fret .aeolian .n_M7 {
   background-color: #FEF8D6;
 }
-
+.fret .aeolian .n_b13 {
+  border: 1px solid #4585a8;
+  box-sizing: border-box;
+}
 .fret .locrian .n_1,
 .fret .locrian .n_b9,
 .fret .locrian .n_b3,
@@ -280,6 +296,12 @@ hr {
 .fret .locrian .n_b13,
 .fret .locrian .n_b7 {
   background-color: #FEF8D6;
+}
+.fret .locrian .n_b9,
+.fret .locrian .n_b5,
+.fret .locrian .n_b13 {
+  border: 1px solid #4585a8;
+  box-sizing: border-box;
 }
 
 .fret .sharp_note {
