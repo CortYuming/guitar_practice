@@ -350,22 +350,22 @@ hr {
   margin-bottom: 30px;
 }
 
-.etc .diatonic_chords .fret_tabile {
+.etc .table {
   border-collapse: collapse;
   margin-top: 10px;
   text-align: center;
   line-height: 1.2;
 }
-.etc .diatonic_chords .fret_tabile tr:nth-child(odd) td {
+.etc .table tr:nth-child(odd) td {
   background-color: #f8f8f8;
 }
-.etc .diatonic_chords .fret_tabile tr.thead td{
+.etc .table tr.thead td{
   background-color: #d3d3d3;
 }
-.etc .diatonic_chords .fret_tabile .thead td{
+.etc .table .thead td{
   font-weight: bold;
 }
-.etc .diatonic_chords .fret_tabile th {
+.etc .table th {
     width: 3em;
     padding: 0.7em 0;
     font-weight: bold;
@@ -373,7 +373,7 @@ hr {
     border: 1px solid #ccc;
     background-color: #d3d3d3;
 }
-.etc .diatonic_chords .fret_tabile td {
+.etc .table td {
     width: 6em;
     padding: 0.7em 0;
     vertical-align: top;
