@@ -127,32 +127,70 @@ hr {
   color: #c8c8c8;
 }
 
+.fret .fret_table.note_names .n_1,
+.fret .fret_table.note_names .n_9,
+.fret .fret_table.note_names .n_3,
+.fret .fret_table.note_names .n_4,
+.fret .fret_table.note_names .n_5,
+.fret .fret_table.note_names .n_6,
+.fret .fret_table.note_names .n_M7 {
+  font-weight: 700;
+}
+
+.fret {
+  color: #c8c8c8;
+}
 .fret .n_1 {
-  color: #ff5e5e;
+  color: #E11E1D;
   font-weight: bold;
 }
-.fret .n_b9,
-.fret .n_9 {
-  color: #DDA0DD;
+.fret .n_sharp1 {
+  color: #B21A35;
 }
-.fret .n_b3,
+.fret .n_b9 {
+ color: #97742B;
+}
+.fret .n_9 {
+  color: #D9B117;
+}
+.fret .n_sharp9 {
+  color: #8EAE4B;
+}
+.fret .n_b3 {
+  color: #008141;
+}
 .fret .n_3 {
-  color: #1296FA;
+  color: #40A938;
 }
 .fret .n_4 {
-  color: #4FD6CF;
+  color: #BD8141;
 }
-.fret .n_b5,
+.fret .n_sharp4 {
+  color: #D05D26;
+}
+.fret .n_b5 {
+  color: #1B7CA0;
+}
 .fret .n_5 {
-  color: #2da62d;
+  color: #02AFD1;
 }
-.fret .n_b6,
+.fret .n_sharp5 {
+  color: #2785B3;
+}
+.fret .n_b6 {
+  color: #61398B;
+}
 .fret .n_6 {
-  color: #DAA520;
+  color: #B75684;
 }
-.fret .n_b7,
+.fret .n_sharp6 {
+  color: #8F6A96;
+}
+.fret .n_b7 {
+  color: #A374A2;
+}
 .fret .n_M7 {
-  color: #FFBA19;
+  color: #DBA3B0;
 }
 
 .fret .major_seventh .n_1,
@@ -305,6 +343,7 @@ hr {
 }
 
 .fret .sharp_note {
+  color: #c8c8c8;
   opacity: 0.4;
 }
 
