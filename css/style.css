@@ -168,7 +168,8 @@ hr {
   color: #02cabe;
 }
 .fret .n_sharp4 {
-  color: #02ebf1;
+  /* color: #02ebf1; */
+  color: #02d8dd;
 }
 .fret .n_b5 {
   color: #00bee4;
