@@ -61,4 +61,5 @@ $(function(){
   toggle_mode_scale($major_of_mode, major_in_mode_scales);
   toggle_mode_scale($minor_of_mode, minor_in_mode_scales);
   display_select_keys()
+  $('.select-keys').val('c').change();
 });
