@@ -142,58 +142,37 @@ hr {
 .fret {
   color: #c8c8c8;
 }
+.fret .n_sharp1,
 .fret .n_1 {
-  color: #E11E1D;
+  color: #D9073D;
   font-weight: bold;
 }
-.fret .n_sharp1 {
-  color: #ef8584;
-}
+.fret .n_sharp9,
+.fret .n_9,
 .fret .n_b9 {
- color: #c89d08;
+  color: #FFA500;
 }
-.fret .n_9 {
-  color: #F6D515;
-}
-.fret .n_sharp9 {
-  color: #fbed99;
-}
+.fret .n_3,
 .fret .n_b3 {
-  color: #2f7d29;
+  color: #009966;
 }
-.fret .n_3 {
-  color: #40A938;
-}
+.fret .n_sharp4,
 .fret .n_4 {
-  color: #02cabe;
+  color:  #00cc99;
 }
-.fret .n_sharp4 {
-  /* color: #02ebf1; */
-  color: #02d8dd;
-}
+.n_sharp5,
+.fret .n_5,
 .fret .n_b5 {
-  color: #00bee4;
+  color: #69ABDB;
 }
-.fret .n_5 {
-  color: #33ddff;
-}
-.fret .n_sharp5 {
-  color: #a2dde6;
-}
+.fret .n_sharp6,
+.fret .n_6,
 .fret .n_b6 {
-  color: #99416b;
+  color: #874da1;
 }
-.fret .n_6 {
-  color: #B75684;
-}
-.fret .n_sharp6 {
-  color: #8F6A96;
-}
-.fret .n_b7 {
-  color: #A374A2;
-}
+.fret .n_b7,
 .fret .n_M7 {
-  color: #DBA3B0;
+  color: #B099CC;
 }
 
 .fret .major_seventh .n_1,
