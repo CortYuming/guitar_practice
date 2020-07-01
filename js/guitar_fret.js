@@ -24,7 +24,7 @@ $(function(){
 
   function display_select_keys() {
     var notes = ['1', 'b9', '9', 'b3', '3', '4', 'b5', '5', 'b6', '6', 'b7', 'M7'];
-    var ignore_notes = {
+    var major_scales = {
       'chromatic': [],
       'c': ['1', '9', '3', '4', '5', '6', 'M7'],
       'd_b': ['b9', 'b3', '4', 'b5', 'b6', 'b7', '1'],
@@ -43,10 +43,18 @@ $(function(){
 
     $('.select-keys').change(function(){
       var key = $(this).val();
-      var remove_notes = notes.filter(n => !ignore_notes[key].includes(n));
+      var scale = major_scales[key]
+      var remove_notes = notes.filter(n => !scale.includes(n));
 
       notes.forEach(function(note) {
-        $($note_names.find(`td.n_${note} > span`)).css('opacity', '1')
+        var $note = $($note_names.find(`td.n_${note} > span`))
+        $note.css('opacity', '1')
+        console.info(note, scale[0], scale[2], scale[4], scale[6], [scale[0], scale[2], scale[4], scale[6]].includes(note))
+        if ([scale[0], scale[2], scale[4], scale[6]].includes(note)) {
+          $note.css('font-weight', 'bold')
+        } else {
+          $note.css('font-weight', 'normal')
+        }
       })
       if (key === 'chromatic') {
         return;
