@@ -50,7 +50,7 @@ $(function(){
         var $note = $($note_names.find(`td.n_${note} > span`))
         $note.css('opacity', '1')
         console.info(note, scale[0], scale[2], scale[4], scale[6], [scale[0], scale[2], scale[4], scale[6]].includes(note))
-        if ([scale[0], scale[2], scale[4], scale[6]].includes(note)) {
+        if (key === 'chromatic' && ['1', '3', '5', 'M7'].includes(note) || [scale[0], scale[2], scale[4], scale[6]].includes(note)) {
           $note.css('font-weight', 'bold')
         } else {
           $note.css('font-weight', 'normal')
