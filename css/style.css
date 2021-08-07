@@ -419,6 +419,13 @@ hr {
   display: block;
 }
 
+.tonic_solfa {
+  padding-bottom: 4em;
+}
+.tonic_solfa img {
+  width: 100%;
+}
+
 
 
 .clearfix:after {
